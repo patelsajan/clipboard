@@ -1,1 +1,5 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-item><ion-input type="text" [(ngModel)]="inputValue"></ion-input></ion-item>
+{{inputValue}}
+<button ion-button (click)="copy()">click me</button>
+<br>
+{{res}}
